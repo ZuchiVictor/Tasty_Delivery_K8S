@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-fiap-rds" # example: terraform-tfstates
+    bucket = "terraform-fiap" # example: terraform-tfstates
     key    = "tastyDeliveryEcs/terraform.tfstate"
     region = "us-east-1" # example: us-east-1 (região escolhida na criação do bucket)
   }
